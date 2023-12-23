@@ -292,7 +292,7 @@ letter-spacing: 0.2px;
     display: flex;
     justify-content: center;
     gap: 35px;
-    position: relative; 
+    position: relative;     
 }
 .layout2-card{
     border: 3px ;
