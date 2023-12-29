@@ -1684,6 +1684,11 @@ opacity: 70%;
         width: 100%;
     margin-bottom: 1400px;
     }
+    .layout2-cards{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: -700px;
+    }
 
     .layout2-card {
         max-width: 100%;
@@ -1846,5 +1851,457 @@ opacity: 70%;
 @media (max-width: 420px) {
     .footer-last {
         text-align: center;
+    }
+}
+@media screen and(min-width:420px) {
+    
+}
+@media only screen and (min-width: 420px) and (max-width: 820px) {
+    body{
+        height: 7800px;
+    }
+    .navbar {
+        padding: 20px 3%;
+    }
+
+    .navbar-name a {
+        margin-left: 3%;
+    }
+
+    .list ul {
+        margin-left: -3%;
+    }
+
+    .navbar-button1,
+    .navbar-button2 {
+        padding: 10px 3%;
+    }
+
+    .nav-bar-buttons {
+        margin-right: 3%;
+    }
+
+    .head {
+        padding: 50px 3%;
+        height: 1700px;
+    }
+}
+@media only screen and (min-width: 420px) and (max-width: 820px) {
+    .header-text h6 {
+        font-size: 18px;
+        margin-top: -180px;
+    }
+
+    .header-text h1 {
+        margin-top: 150px;
+        font-size: 48px;
+        line-height: 60px;
+    }
+
+    .header-text h2 {
+        font-size: 55px;
+        margin-top: -14px;
+    }
+
+    .header-text p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .quote-button {
+        padding: 12px 35px;
+    }
+
+    .learn-button {
+        padding: 10px 30px;
+    }
+}
+@media only screen and (min-width: 420px) and (max-width: 820px) {
+    .header-card {
+        gap: 10px;
+    }
+
+    .icon {
+        width: 60px;
+        height: 65px;
+    }
+
+    .icon i {
+        font-size: 20px;
+    }
+
+    .card-title h1 {
+        font-size: 18px;
+    }
+
+    .line {
+        width: 30px;
+    }
+
+    .card-text {
+        padding: 10px;
+        font-size: 12px;
+    }
+}
+@media only screen and (min-width: 420px) and (max-width: 820px) {
+    .secondcard-icon,
+    .thirdcard-icon {
+        width: 70px;
+        height: 75px;
+        padding: 8px 20px;
+    }
+
+    .secondcard-icon i,
+    .thirdcard-icon i {
+        font-size: 24px;
+    }
+
+    .secondcard-title h1,
+    .thirdcard-title h1 {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .secondcard-line,
+    .thirdcard-line {
+        width: 40px;
+    }
+
+    .secondcard-text,
+    .thirdcard-text {
+        padding: 15px 20px;
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .secondcard-text p,
+    .thirdcard-text p {
+        opacity: 70%;
+    }
+}
+@media only screen and (min-width: 420px) and (max-width: 820px) {
+    .header-card3 {
+        
+    }
+
+    .layout1 {
+        flex-direction: column;
+    }
+
+    .first-half,
+    .second-half {
+        width: 100%;
+    }
+
+    .layout1-line {
+        display: none;
+    }
+
+    .layout1-title {
+        position: relative;
+        top: 0;
+        right: 0;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .layout1-title h1 {
+        font-size: 40px;
+        width: 100%;
+    }
+
+    .layout1-text {
+        position: relative;
+        top: 0;
+        right: 0;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .layout1-text p {
+        width: 100%;
+    }
+
+    .layout1-button {
+        font-size: 16px;
+        position: relative;
+        top: 0;
+        right: 0;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .layout1-image {
+        order: -1;
+    }
+
+    .img {
+        width: 100%;
+        height: auto;
+    }
+}
+@media only screen and (min-width: 420px) and (max-width: 820px) {
+    .layout2 {
+        width: 100%;
+        height: auto;
+    }
+
+    .start-text {
+        height: auto;
+        padding: 20px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .start-text h6 {
+        font-size: 16px;
+    }
+
+    .start-text h1 {
+        font-size: 40px;
+    }
+
+    .layout2-title {
+        position: relative;
+        left: 0;
+        margin-top: 20px;
+    }
+
+    .layout2-title p {
+        width: 100%;
+    }
+
+    .layout2-cards {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .layout2-card {
+        width: 70%;
+        height: auto;
+    }
+
+    .layout2-card img {
+        width: 100%;
+        height: auto;
+    }
+
+    .layout2-card-icons1,
+    .layout2-card-icons2,
+    .layout2-card-icons3,
+    .layout2-card-icons4 {
+        position: relative;
+        top: 0;
+        right: 0;
+        justify-content: center;
+        gap: 10px;
+        font-size: 20px;
+        margin-top: 10px;
+    }
+}
+@media only screen and (min-width: 420px) and (max-width: 820px) {
+    .layout2-card-text {
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .layout2-card-text-head {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .layout2-card-text-head h6 {
+        font-size: 14px;
+    }
+
+    .layout2-card-text-head button {
+        height: 30px;
+        gap: 5px;
+    }
+
+    .layout2-card-text-head button i {
+        font-size: 16px;
+    }
+
+    .layout2-card-text-head button p {
+        font-size: 14px;
+    }
+
+    .layout2-card-text h3 {
+        font-size: 18px;
+    }
+
+    .layout2-card-text p {
+        font-weight: 500;
+    }
+
+    .layout2-card-text h5 {
+        font-size: 15px;
+    }
+
+    .layout2-card-text h4 {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+}
+@media only screen and (min-width: 420px) and (max-width: 820px) {
+    .layout2-card-text-icons {
+        font-size: 14px;
+        margin-top: 20px;
+    }
+
+    .layout2-card-text-button button {
+        padding: 12px 30px;
+        margin-top: 20px;
+    }
+
+    .layout2-card-first-sale,
+    .layout2-card-second-sale,
+    .layout2-card-third-sale,
+    .layout2-card-fourth-sale {
+        top: 5px;
+    }
+}
+@media only screen and (min-width: 420px) and (max-width: 820px) {
+    .layout3 {
+        top: 100    px;
+    }
+
+    .layout3-title {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .layout3-main {
+        margin-top: 300px;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .layout3-first {
+        width: 100%;
+    }
+
+    .layout3-first-card {
+        width: 80%;
+    }
+
+    .layout3-first-card-headimg img {
+        height: 80px;
+        width: 80px;
+    }
+
+    .layout3-first-card-text {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .layout3-first-card-text p {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .layout3-first-card-user h6 {
+        font-size: 14px;
+    }
+}
+@media only screen and (min-width: 420px) and (max-width: 820px) {
+    .layout4 {
+        height: auto;
+    }
+
+    .layout4-main-text {
+        height: auto;
+    }
+
+    .layout4-start-text {
+        height: auto;
+        padding: 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .layout4-start-text h6,
+    .layout4-start-text h1 {
+        font-size: 18px;
+    }
+
+    .layout4-title p {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .layout4-email {
+        padding: 15px;
+    }
+
+    .layout4-email input {
+        width: 100%;
+        max-width: 600px;
+        padding: 10px;
+    }
+
+    .layout4-email button {
+        width: 100%;
+        max-width: 117px;
+        padding: 10px;
+    }
+
+    .layout4-email-container {
+        align-items: center;
+    }
+}
+@media only screen and (min-width: 420px) and (max-width: 820px) {
+    footer {
+        padding: 50px;
+    }
+
+    .footer-head-info {
+        padding: 10px;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer-head-info1,
+    .footer-head-info2,
+    .footer-head-info3,
+    .footer-head-info4 {
+        width: 100%;
+        height: auto;
+    }
+
+    .footer-head-info1 h3 {
+        font-size: 20px;
+    }
+
+    .footer-head-info1 p {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .footer-head-info1 i {
+        font-size: 24px;
+    }
+
+    .footer-head-info1-icons {
+        gap: 15px;
+    }
+
+    .footer-head-info2 h3,
+    .footer-head-info3 h3,
+    .footer-head-info4 h3 {
+        font-size: 20px;
+    }
+
+    .footer-head-info2 ul li a,
+    .footer-head-info3 ul li a,
+    .footer-head-info4 ul li a {
+        font-size: 14px;
+    }
+
+    .footer-last-text h6 {
+        font-size: 14px;
     }
 }
